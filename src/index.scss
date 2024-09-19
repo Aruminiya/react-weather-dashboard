@@ -1,0 +1,51 @@
+@import './cssReset.css';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+html, body {
+  font-family: "Noto Sans TC", system-ui;
+  width: 100%;
+  height: 100%;
+};
+
+#root {
+  height: 100%;
+  background-color: #64cefb;
+  // border: solid 1px;
+};
+
+
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+};
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+};
+
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+};
+
+h4 {
+  font-size: 24px;
+  font-weight: 500;
+};
+
+h5 {
+  font-size: 20px;
+  font-weight: 500;
+};
+
+h6 {
+  font-size: 16px;
+  font-weight: 500;
+};
+
+p, span {
+  font-size: 12px;
+  font-weight: 500;
+};
