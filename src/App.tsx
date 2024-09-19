@@ -2,6 +2,8 @@ import Router from "./router/Router.tsx";
 import { Container } from '@mui/material';
 import { styled } from '@mui/system';
 
+import OpenMeteoApiContextProvider from "./context/OpenMeteoApiContextProvider.tsx";
+
 const MainScreen = styled('div')(() => ({
   height: "100%",
   display: "flex",
@@ -18,7 +20,7 @@ const MainScreen = styled('div')(() => ({
 
 function App() {
   return (
-    <>
+    <OpenMeteoApiContextProvider>
       <MainScreen>
         <main>
           <Container maxWidth="lg">
@@ -26,7 +28,7 @@ function App() {
           </Container>
         </main>
       </MainScreen>
-    </>
+    </OpenMeteoApiContextProvider>
   )
 }
 
