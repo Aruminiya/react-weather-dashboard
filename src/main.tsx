@@ -1,12 +1,15 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App.tsx';
-// import 'normalize.css';
 
+import { ThemeProvider } from '@mui/system';
+import muiCustomTheme from './muiCustomTheme.ts';
 import './index.scss';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <ThemeProvider theme={muiCustomTheme}>
+      <App />
+    </ThemeProvider>
   </StrictMode>,
 )

@@ -1,41 +1,36 @@
-import { Box, Button, Card, CardContent, CardActions, Typography } from "@mui/material";
+import { Box, Card, CardContent, Grid2 } from "@mui/material";
+import { useTheme } from '@mui/material/styles';
 
-const bull = (
-  <Box
-    component="span"
-    sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
-  >
-    •
-  </Box>
-);
+import TodayWeather from "../components/TodayWeather";
+
  
 function HomePage() {
+  const theme = useTheme();
+
   return (
     <>
-      <Box
-        component="span"
-        sx={{ display: 'inline-block', my: '24px' }}
-      >
-       <h1>天氣預報 Weather Dashboard</h1>
+      <Box component="span" sx={{ display: 'inline-block', my: '24px' }} >
+        <h1>天氣預報 Weather Dashboard</h1>
       </Box>
-      <Card sx={{ minWidth: 275 }}>
+      <Card sx={{ minWidth: 275, backgroundColor: theme.customColors.darkGreenBlue }}>
         <CardContent>
-          <Typography gutterBottom sx={{ color: 'text.secondary', fontSize: 14 }}>
-            Word of the Day
-          </Typography>
-          <Typography variant="h5" component="div">
-            be{bull}nev{bull}o{bull}lent
-          </Typography>
-          <Typography sx={{ color: 'text.secondary', mb: 1.5 }}>adjective</Typography>
-          <Typography variant="body2">
-            well meaning and kindly.
-            <br />
-            {'"a benevolent smile"'}
-          </Typography>
+          <Box component="span" sx={{ display: 'inline-block' }} >
+            <h4>台北市, 士林區</h4>
+            <h4>Taipei City, Shilin District</h4>
+          </Box>
         </CardContent>
-        <CardActions>
-          <Button size="small">Learn More</Button>
-        </CardActions>
+        <CardContent>
+          <Grid2 container spacing={2}>
+            <Grid2 size={5}>
+              <TodayWeather sx={{ padding: '24px', bgcolor: theme.customColors.darkPurpleBlue, borderRadius: 1 }}/>
+            </Grid2>
+            <Grid2 size={7}>
+              <Box >
+                今日天氣資料
+              </Box>
+            </Grid2>
+          </Grid2>
+        </CardContent>
       </Card>
     </>
   )
