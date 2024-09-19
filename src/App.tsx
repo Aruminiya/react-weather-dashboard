@@ -8,6 +8,7 @@ const MainScreen = styled('div')(() => ({
   flexDirection: "column",
   "& main": {
     display: "flex",
+    height: "100%",
     justifyContent: "center",
     alignItems: "center",
 

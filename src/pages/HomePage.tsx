@@ -1,4 +1,4 @@
-import { Box, Card, CardContent, Grid2 } from "@mui/material";
+import { Box, Card, CardContent, Grid2, Stack } from "@mui/material";
 import { useTheme } from '@mui/material/styles';
 
 import TodayWeather from "../components/TodayWeather";
@@ -22,12 +22,23 @@ function HomePage() {
         <CardContent>
           <Grid2 container spacing={2}>
             <Grid2 size={5}>
-              <TodayWeather sx={{ padding: '24px', bgcolor: theme.customColors.darkPurpleBlue, borderRadius: 1 }}/>
+              <TodayWeather sx={{ minWidth: '400px', padding: '24px', bgcolor: theme.customColors.darkPurpleBlue, borderRadius: 1 }}/>
             </Grid2>
             <Grid2 size={7}>
               <Box >
                 今日天氣資料
               </Box>
+            </Grid2>
+            <Grid2 size={12}>
+              <Stack spacing={1} direction="row" >
+                <Box sx={{backgroundColor: 'red', height: '250px', flex: 1}}>1</Box>
+                <Box sx={{backgroundColor: 'red', height: '250px', flex: 1}}>2</Box>
+                <Box sx={{backgroundColor: 'red', height: '250px', flex: 1}}>3</Box>
+                <Box sx={{backgroundColor: 'red', height: '250px', flex: 1}}>4</Box>
+                <Box sx={{backgroundColor: 'red', height: '250px', flex: 1}}>5</Box>
+                <Box sx={{backgroundColor: 'red', height: '250px', flex: 1}}>6</Box>
+                <Box sx={{backgroundColor: 'red', height: '250px', flex: 1}}>7</Box>
+              </Stack>
             </Grid2>
           </Grid2>
         </CardContent>

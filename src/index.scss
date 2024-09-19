@@ -2,18 +2,16 @@
 @import './variable.scss';
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
 
-html, body {
+body {
   font-family: "Noto Sans TC", system-ui;
   width: 100%;
-  height: 100%;
-  color: white
   
-};
-
-#root {
-  height: 100%;
-  background-color: $dark-purple-blue;
-  // border: solid 1px;
+  color: white;
+  #root {
+    min-height: 100vh;
+    background-color: $dark-purple-blue;
+    // border: solid 1px;
+  };
 };
 
 
