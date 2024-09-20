@@ -6,7 +6,9 @@ import { OpenMeteoApiContext } from "../context/OpenMeteoApiContextProvider";
 import TodayWeather from "../components/TodayWeather";
 import LoadingModal from "../components/LoadingModal";
 import WeekWeather from "../components/WeekWeather";
+
 import weatherCodeToDescription from "../utils/weatherCodeToDescription";
+import { formatDate } from "../utils/format";
 
  
 function HomePage() {
@@ -23,8 +25,12 @@ function HomePage() {
     wind_speed_10m: 0,
     relative_humidity_2m: 0
   });
+  
   const [weekWeather, setWeekWeather] = useState({
-
+    temperature_2m_max: [] as number[],
+    temperature_2m_min: [] as number[],
+    time: [] as string[],
+    weather_code: [] as number[]
   });
   
   useEffect(()=>{
@@ -38,6 +44,9 @@ function HomePage() {
         setIsLoading(false);
         setWeather(() => ({
           ...res.data.current
+        }));
+        setWeekWeather(() => ({
+          ...res.data.daily
         }))
       });
 
@@ -82,13 +91,15 @@ function HomePage() {
             </Grid2>
             <Grid2 size={12}>
               <Stack spacing={1} direction="row" >
-                <WeekWeather week="週一" image={weatherCodeToDescription(weather.weather_code).image} temperatureMax={23} temperatureMin={20}/>
-                <WeekWeather week="週一" image={weatherCodeToDescription(weather.weather_code).image} temperatureMax={23} temperatureMin={20}/>
-                <WeekWeather week="週一" image={weatherCodeToDescription(weather.weather_code).image} temperatureMax={23} temperatureMin={20}/>
-                <WeekWeather week="週一" image={weatherCodeToDescription(weather.weather_code).image} temperatureMax={23} temperatureMin={20}/>
-                <WeekWeather week="週一" image={weatherCodeToDescription(weather.weather_code).image} temperatureMax={23} temperatureMin={20}/>
-                <WeekWeather week="週一" image={weatherCodeToDescription(weather.weather_code).image} temperatureMax={23} temperatureMin={20}/>
-                <WeekWeather week="週一" image={weatherCodeToDescription(weather.weather_code).image} temperatureMax={23} temperatureMin={20}/>
+                {weekWeather.time.map((time, index) => (
+                  <WeekWeather
+                    key={index}
+                    week={formatDate(time)}
+                    image={weatherCodeToDescription(weekWeather.weather_code[index]).image}
+                    temperatureMax={weekWeather.temperature_2m_max[index]}
+                    temperatureMin={weekWeather.temperature_2m_min[index]}
+                  />
+                ))}
               </Stack>
             </Grid2>
           </Grid2>

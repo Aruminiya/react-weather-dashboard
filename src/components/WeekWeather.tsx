@@ -1,7 +1,6 @@
 import { Stack } from "@mui/material";
 import { styled } from '@mui/system';
 import { useTheme } from '@mui/material/styles';
-import { Padding } from "@mui/icons-material";
 
 const Image = styled('div')(() => ({
   '& img': {
