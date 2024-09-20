@@ -8,7 +8,7 @@ import WaterDropIcon from '@mui/icons-material/WaterDrop';
 
 
 const TempertureText = styled('p')(() => ({
-  fontSize: '96px',
+  fontSize: '76px',
   fontWeight: 900
 }));
 
@@ -16,6 +16,7 @@ const Image = styled('p')(() => ({
   width: '200px',
   height: '200px',
   '& img': {
+    objectFit: "contain",
     width: '100%',
     height: '100%',
   }
@@ -39,16 +40,25 @@ function TodayWeather({temperture, situation, windSpeed, humidity, image, ...pro
           <h4>Low 20°C </h4>
         </Box> */}
       </Box>
-      <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+      <Stack direction="row" sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <Stack spacing={1} sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'end' }}>
-          <h4><Brightness4Icon />{situation}</h4>
-          <h4><AirIcon /> 風速 {windSpeed}km/h</h4>
-          <h4><WaterDropIcon />濕度 {humidity}%</h4>
+          <Stack direction="row" spacing={1} sx={{ whiteSpace: 'nowrap' }}>
+            <Brightness4Icon sx={{color: 'white'}} />
+            <h5>{situation}</h5>
+          </Stack>
+          <Stack direction="row" spacing={1} sx={{ whiteSpace: 'nowrap' }}>
+            <AirIcon sx={{color: 'white'}} /> 
+            <h5>風速 {windSpeed}km/h</h5>
+          </Stack>
+          <Stack direction="row" spacing={1} sx={{ whiteSpace: 'nowrap' }}>
+            <WaterDropIcon sx={{color: 'white'}} />
+            <h5>濕度 {humidity}%</h5>
+          </Stack>
         </Stack>
         <Image>
           <img src={image} alt="SunnyAndCloudy Image" />
         </Image>
-      </Box>        
+      </Stack>        
     </Box>
   )
 };

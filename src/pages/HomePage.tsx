@@ -4,6 +4,8 @@ import { useTheme } from '@mui/material/styles';
 import { OpenMeteoApiContext } from "../context/OpenMeteoApiContextProvider";
 
 import TodayWeather from "../components/TodayWeather";
+import LoadingModal from "../components/LoadingModal";
+import WeekWeather from "../components/WeekWeather";
 import weatherCodeToDescription from "../utils/weatherCodeToDescription";
 
  
@@ -13,23 +15,28 @@ function HomePage() {
   const OpenMeteoApiCtx = useContext(OpenMeteoApiContext);
   const { getCurrentWeather } = OpenMeteoApiCtx;
 
+  const[isLoading, setIsLoading] = useState(false);
+
   const [weather, setWeather] = useState({
-    isLoding: true,
     temperature_2m: 0,
     weather_code: 0,
     wind_speed_10m: 0,
     relative_humidity_2m: 0
   });
+  const [weekWeather, setWeekWeather] = useState({
+
+  });
   
   useEffect(()=>{
+    setIsLoading(true);
     navigator.geolocation.getCurrentPosition((position) => {
       const latitude = position.coords.latitude;
       const longitude = position.coords.longitude;
       
       getCurrentWeather(latitude, longitude).then((res)=>{
         console.log(res);
+        setIsLoading(false);
         setWeather(() => ({
-          isLoding: false,
           ...res.data.current
         }))
       });
@@ -41,14 +48,15 @@ function HomePage() {
 
   return (
     <>
-      <p>{weather ? JSON.stringify(weather) : "null"}</p>
+      <h1>weather</h1><p>{weather ? JSON.stringify(weather) : "null"}</p>
+      <h1>weekWeather</h1><p>{weekWeather ? JSON.stringify(weekWeather) : "null"}</p>
       <Box component="span" sx={{ display: 'inline-block', my: '24px' }} >
         <h1>天氣預報 Weather Dashboard</h1>
       </Box>
-      {weather.isLoding ?
-        <h1>Loading...</h1>
+      {isLoading ?
+        <LoadingModal isLoading={isLoading} />
       :  
-      <Card sx={{ minWidth: 275, backgroundColor: theme.customColors.darkGreenBlue }}>
+      <Card sx={{ minWidth: 275, backgroundColor: theme.customColors.darkBlue }}>
         <CardContent>
           <Box component="span" sx={{ display: 'inline-block' }} >
             <h4>台北市, 士林區</h4>
@@ -64,7 +72,7 @@ function HomePage() {
                 windSpeed={weather.wind_speed_10m}
                 humidity={weather.relative_humidity_2m}
                 image={weatherCodeToDescription(weather.weather_code).image}
-                sx={{ minWidth: '450px', padding: '24px', bgcolor: theme.customColors.darkPurpleBlue, borderRadius: 1 }}
+                sx={{ padding: '24px', bgcolor: theme.customColors.darkPurpleBlue, borderRadius: 1 }}
               />
             </Grid2>
             <Grid2 size={7}>
@@ -74,13 +82,13 @@ function HomePage() {
             </Grid2>
             <Grid2 size={12}>
               <Stack spacing={1} direction="row" >
-                <Box sx={{backgroundColor: 'red', height: '250px', flex: 1}}>1</Box>
-                <Box sx={{backgroundColor: 'red', height: '250px', flex: 1}}>2</Box>
-                <Box sx={{backgroundColor: 'red', height: '250px', flex: 1}}>3</Box>
-                <Box sx={{backgroundColor: 'red', height: '250px', flex: 1}}>4</Box>
-                <Box sx={{backgroundColor: 'red', height: '250px', flex: 1}}>5</Box>
-                <Box sx={{backgroundColor: 'red', height: '250px', flex: 1}}>6</Box>
-                <Box sx={{backgroundColor: 'red', height: '250px', flex: 1}}>7</Box>
+                <WeekWeather week="週一" image={weatherCodeToDescription(weather.weather_code).image} temperatureMax={23} temperatureMin={20}/>
+                <WeekWeather week="週一" image={weatherCodeToDescription(weather.weather_code).image} temperatureMax={23} temperatureMin={20}/>
+                <WeekWeather week="週一" image={weatherCodeToDescription(weather.weather_code).image} temperatureMax={23} temperatureMin={20}/>
+                <WeekWeather week="週一" image={weatherCodeToDescription(weather.weather_code).image} temperatureMax={23} temperatureMin={20}/>
+                <WeekWeather week="週一" image={weatherCodeToDescription(weather.weather_code).image} temperatureMax={23} temperatureMin={20}/>
+                <WeekWeather week="週一" image={weatherCodeToDescription(weather.weather_code).image} temperatureMax={23} temperatureMin={20}/>
+                <WeekWeather week="週一" image={weatherCodeToDescription(weather.weather_code).image} temperatureMax={23} temperatureMin={20}/>
               </Stack>
             </Grid2>
           </Grid2>
