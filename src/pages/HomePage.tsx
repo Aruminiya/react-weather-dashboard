@@ -6,9 +6,10 @@ import { OpenMeteoApiContext } from "../context/OpenMeteoApiContextProvider";
 import TodayWeather from "../components/TodayWeather";
 import LoadingModal from "../components/LoadingModal";
 import WeekWeather from "../components/WeekWeather";
+import CaptialAutocomplete from "../components/CaptialAutocomplete";
 
 import weatherCodeToDescription from "../utils/weatherCodeToDescription";
-import { formatDate, findNearestCountry } from "../utils/format";
+import { formatDate } from "../utils/format";
 
  
 function HomePage() {
@@ -18,6 +19,14 @@ function HomePage() {
   const { getCurrentWeather } = OpenMeteoApiCtx;
 
   const[isLoading, setIsLoading] = useState(false);
+
+  const [location, setLocation] = useState({
+    label: '',
+    latlng: [],
+    name: '',
+    timezones: [],
+    zho: ''
+  })
 
   const [weather, setWeather] = useState({
     temperature_2m: 0,
@@ -32,18 +41,26 @@ function HomePage() {
     time: [] as string[],
     weather_code: [] as number[]
   });
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const getSelectCaptial = (selectedCaptial: any)=>{
+    console.log(selectedCaptial)
+  };
   
   useEffect(()=>{
     setIsLoading(true);
     navigator.geolocation.getCurrentPosition((position) => {
       const latitude = position.coords.latitude;
       const longitude = position.coords.longitude;
-      const myLocation = findNearestCountry(latitude, longitude) // 根據當前位置找到與資料庫中最接近的國家資料 
       
       console.log(position)
-      console.log(myLocation)
       getCurrentWeather(latitude, longitude).then((res)=>{
         setIsLoading(false);
+        setLocation((prev)=>({
+          ...prev,
+          zho: '當前位置',
+          name: 'Current location'
+        }));
         setWeather(() => ({
           ...res.data.current
         }));
@@ -70,9 +87,10 @@ function HomePage() {
       <Card sx={{ minWidth: 275, backgroundColor: theme.customColors.darkBlue }}>
         <CardContent>
           <Box component="span" sx={{ display: 'inline-block' }} >
-            <h4>台北市, 士林區</h4>
-            <h4>Taipei City, Shilin District</h4>
+            <h4>{location.zho}</h4>
+            <h4>{location.name}</h4>
           </Box>
+          <CaptialAutocomplete selectedCaptial={getSelectCaptial}/>
         </CardContent>
         <CardContent>
           <Grid2 container spacing={2}>
