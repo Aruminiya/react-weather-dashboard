@@ -24,7 +24,7 @@ export default function CaptialAutocomplete({selectedCaptial}:any) {
       disablePortal
       options={LabelCountryData()}
       sx={{ width: 300 }}
-      renderInput={(params) => <TextField {...params} label="請選擇首都" />}
+      renderInput={(params) => <TextField sx={{ bgcolor: 'white'}} {...params} label="請選擇首都" />}
       onChange={handleChange}
     />
   );

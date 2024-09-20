@@ -1,4 +1,4 @@
-import { useState, useContext, useEffect } from "react";
+import { useState, useContext, useEffect, useCallback } from "react";
 import { Box, Card, CardContent, Grid2, Stack } from "@mui/material";
 import { useTheme } from '@mui/material/styles';
 import { OpenMeteoApiContext } from "../context/OpenMeteoApiContextProvider";
@@ -11,6 +11,27 @@ import CaptialAutocomplete from "../components/CaptialAutocomplete";
 import weatherCodeToDescription from "../utils/weatherCodeToDescription";
 import { formatDate } from "../utils/format";
 
+type Location = {
+  label: string;
+  latlng: number[];
+  name: string;
+  timezones: string[];
+  zho: string;
+}
+
+type Weather = {
+  temperature_2m: number;
+  weather_code: number;
+  wind_speed_10m: number;
+  relative_humidity_2m: number;
+}
+
+type WeekWeather = {
+  temperature_2m_max: number[];
+  temperature_2m_min: number[];
+  time: string[];
+  weather_code: number[];
+}
  
 function HomePage() {
   const theme = useTheme();
@@ -18,17 +39,17 @@ function HomePage() {
   const OpenMeteoApiCtx = useContext(OpenMeteoApiContext);
   const { getCurrentWeather } = OpenMeteoApiCtx;
 
-  const[isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
-  const [location, setLocation] = useState({
+  const [location, setLocation] = useState<Location>({
     label: '',
     latlng: [],
     name: '',
     timezones: [],
     zho: ''
-  })
+  });
 
-  const [weather, setWeather] = useState({
+  const [weather, setWeather] = useState<Weather>({
     temperature_2m: 0,
     weather_code: 0,
     wind_speed_10m: 0,
@@ -44,40 +65,51 @@ function HomePage() {
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const getSelectCaptial = (selectedCaptial: any)=>{
-    console.log(selectedCaptial)
+    const {label, latlng, name, timezones, zho} = selectedCaptial;
+    handleGetCurrentWeather(latlng, label, name, timezones, zho);
   };
-  
-  useEffect(()=>{
-    setIsLoading(true);
-    navigator.geolocation.getCurrentPosition((position) => {
-      const latitude = position.coords.latitude;
-      const longitude = position.coords.longitude;
-      
-      console.log(position)
-      getCurrentWeather(latitude, longitude).then((res)=>{
-        setIsLoading(false);
-        setLocation((prev)=>({
-          ...prev,
-          zho: '當前位置',
-          name: 'Current location'
-        }));
-        setWeather(() => ({
-          ...res.data.current
-        }));
-        setWeekWeather(() => ({
-          ...res.data.daily
-        }))
-      });
 
-    }); // 取得用戶位置
-   
-  },[getCurrentWeather]);
+  const handleGetCurrentWeather = useCallback(async (latlng: number[], label:string, name:string, timezones:string[], zho:string) => {
+    try {
+      setIsLoading(true);
+      const result = await getCurrentWeather(latlng[0], latlng[1]);
+      console.log(result);
+      setWeather(result.data.current);
+      setWeekWeather(result.data.daily);
+      setLocation((prev) => ({
+        ...prev,
+        label,
+        latlng,
+        zho,
+        name,
+        timezones,
+      }));
+    } catch (error) {
+      console.error('Error fetching weather data:', error);
+    } finally {
+      setIsLoading(false);
+    }
+  }, [getCurrentWeather]);
+
+  useEffect(() => {
+    setIsLoading(true);
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const latitude = position.coords.latitude;
+        const longitude = position.coords.longitude;
+        const latlng = [latitude, longitude];
+        handleGetCurrentWeather(latlng, '當前位置 Current location', 'Current location', [], '當前位置');
+      },
+      (error) => {
+        console.error('Error getting geolocation:', error);
+        setIsLoading(false);
+      }
+    );
+  }, [handleGetCurrentWeather]);
   
 
   return (
     <>
-      <h1>weather</h1><p>{weather ? JSON.stringify(weather) : "null"}</p>
-      <h1>weekWeather</h1><p>{weekWeather ? JSON.stringify(weekWeather) : "null"}</p>
       <Box component="span" sx={{ display: 'inline-block', my: '24px' }} >
         <h1>天氣預報 Weather Dashboard</h1>
       </Box>
@@ -86,11 +118,16 @@ function HomePage() {
       :  
       <Card sx={{ minWidth: 275, backgroundColor: theme.customColors.darkBlue }}>
         <CardContent>
-          <Box component="span" sx={{ display: 'inline-block' }} >
-            <h4>{location.zho}</h4>
-            <h4>{location.name}</h4>
-          </Box>
-          <CaptialAutocomplete selectedCaptial={getSelectCaptial}/>
+          <Stack direction='row' sx={{
+            justifyContent: "space-between",
+            alignItems: "center",
+          }}>
+            <Stack spacing={1} sx={{ display: 'inline-block' }} >
+              <h4>{location.zho}</h4>
+              <h4>{location.name}</h4>
+            </Stack>
+            <CaptialAutocomplete selectedCaptial={getSelectCaptial}/>
+          </Stack>
         </CardContent>
         <CardContent>
           <Grid2 container spacing={2}>
