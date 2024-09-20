@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import HomePage from "../pages/HomePage.tsx";
 import About from "../pages/About.tsx";
+import CountryList from "../pages/CountryList.tsx";
 
 const router = createBrowserRouter([
   {
@@ -12,6 +13,10 @@ const router = createBrowserRouter([
     path: '/about',
     element: <About />,
   },
+  {
+    path: '/countryList',
+    element: <CountryList />,
+  }
 
 ]);
 

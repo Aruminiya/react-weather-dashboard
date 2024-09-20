@@ -1,0 +1,2837 @@
+[
+    {
+        "name": "South Georgia",
+        "zho": "南乔治亚",
+        "latlng": [
+            -54.5,
+            -37
+        ],
+        "timezones": [
+            "UTC-02:00"
+        ]
+    },
+    {
+        "name": "Grenada",
+        "zho": "格林纳达",
+        "latlng": [
+            12.11666666,
+            -61.66666666
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Switzerland",
+        "zho": "瑞士",
+        "latlng": [
+            47,
+            8
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Sierra Leone",
+        "zho": "塞拉利昂",
+        "latlng": [
+            8.5,
+            -11.5
+        ],
+        "timezones": [
+            "UTC"
+        ]
+    },
+    {
+        "name": "Hungary",
+        "zho": "匈牙利",
+        "latlng": [
+            47,
+            20
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Taiwan",
+        "latlng": [
+            23.5,
+            121
+        ],
+        "timezones": [
+            "UTC+08:00"
+        ]
+    },
+    {
+        "name": "Wallis and Futuna",
+        "zho": "瓦利斯和富图纳群岛",
+        "latlng": [
+            -13.3,
+            -176.2
+        ],
+        "timezones": [
+            "UTC+12:00"
+        ]
+    },
+    {
+        "name": "Barbados",
+        "zho": "巴巴多斯",
+        "latlng": [
+            13.16666666,
+            -59.53333333
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Pitcairn Islands",
+        "zho": "皮特凯恩群岛",
+        "latlng": [
+            -25.06666666,
+            -130.1
+        ],
+        "timezones": [
+            "UTC-08:00"
+        ]
+    },
+    {
+        "name": "Ivory Coast",
+        "zho": "科特迪瓦",
+        "latlng": [
+            8,
+            -5
+        ],
+        "timezones": [
+            "UTC"
+        ]
+    },
+    {
+        "name": "Tunisia",
+        "zho": "突尼斯",
+        "latlng": [
+            34,
+            9
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Italy",
+        "zho": "意大利",
+        "latlng": [
+            42.83333333,
+            12.83333333
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Benin",
+        "zho": "贝宁",
+        "latlng": [
+            9.5,
+            2.25
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Indonesia",
+        "zho": "印度尼西亚",
+        "latlng": [
+            -5,
+            120
+        ],
+        "timezones": [
+            "UTC+07:00",
+            "UTC+08:00",
+            "UTC+09:00"
+        ]
+    },
+    {
+        "name": "Cape Verde",
+        "zho": "佛得角",
+        "latlng": [
+            16.5388,
+            -23.0418
+        ],
+        "timezones": [
+            "UTC-01:00"
+        ]
+    },
+    {
+        "name": "Saint Kitts and Nevis",
+        "zho": "圣基茨和尼维斯",
+        "latlng": [
+            17.33333333,
+            -62.75
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Laos",
+        "zho": "老挝",
+        "latlng": [
+            18,
+            105
+        ],
+        "timezones": [
+            "UTC+07:00"
+        ]
+    },
+    {
+        "name": "Caribbean Netherlands",
+        "zho": "荷蘭加勒比區",
+        "latlng": [
+            12.18,
+            -68.25
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Uganda",
+        "zho": "乌干达",
+        "latlng": [
+            1,
+            32
+        ],
+        "timezones": [
+            "UTC+03:00"
+        ]
+    },
+    {
+        "name": "Andorra",
+        "zho": "安道尔",
+        "latlng": [
+            42.5,
+            1.5
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Burundi",
+        "zho": "布隆迪",
+        "latlng": [
+            -3.5,
+            30
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "South Africa",
+        "zho": "南非",
+        "latlng": [
+            -29,
+            24
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "France",
+        "zho": "法国",
+        "latlng": [
+            46,
+            2
+        ],
+        "timezones": [
+            "UTC-10:00",
+            "UTC-09:30",
+            "UTC-09:00",
+            "UTC-08:00",
+            "UTC-04:00",
+            "UTC-03:00",
+            "UTC+01:00",
+            "UTC+02:00",
+            "UTC+03:00",
+            "UTC+04:00",
+            "UTC+05:00",
+            "UTC+10:00",
+            "UTC+11:00",
+            "UTC+12:00"
+        ]
+    },
+    {
+        "name": "Libya",
+        "zho": "利比亚",
+        "latlng": [
+            25,
+            17
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Mexico",
+        "zho": "墨西哥",
+        "latlng": [
+            23,
+            -102
+        ],
+        "timezones": [
+            "UTC-08:00",
+            "UTC-07:00",
+            "UTC-06:00"
+        ]
+    },
+    {
+        "name": "Gabon",
+        "zho": "加蓬",
+        "latlng": [
+            -1,
+            11.75
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Northern Mariana Islands",
+        "zho": "北马里亚纳群岛",
+        "latlng": [
+            15.2,
+            145.75
+        ],
+        "timezones": [
+            "UTC+10:00"
+        ]
+    },
+    {
+        "name": "North Macedonia",
+        "zho": "北馬其頓",
+        "latlng": [
+            41.83333333,
+            22
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "China",
+        "latlng": [
+            35,
+            105
+        ],
+        "timezones": [
+            "UTC+08:00"
+        ]
+    },
+    {
+        "name": "Yemen",
+        "zho": "也门",
+        "latlng": [
+            15,
+            48
+        ],
+        "timezones": [
+            "UTC+03:00"
+        ]
+    },
+    {
+        "name": "Saint Barthélemy",
+        "zho": "圣巴泰勒米",
+        "latlng": [
+            18.5,
+            -63.41666666
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Guernsey",
+        "zho": "根西岛",
+        "latlng": [
+            49.46666666,
+            -2.58333333
+        ],
+        "timezones": [
+            "UTC+00:00"
+        ]
+    },
+    {
+        "name": "Solomon Islands",
+        "zho": "所罗门群岛",
+        "latlng": [
+            -8,
+            159
+        ],
+        "timezones": [
+            "UTC+11:00"
+        ]
+    },
+    {
+        "name": "Svalbard and Jan Mayen",
+        "zho": "斯瓦尔巴特",
+        "latlng": [
+            78,
+            20
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Faroe Islands",
+        "zho": "法罗群岛",
+        "latlng": [
+            62,
+            -7
+        ],
+        "timezones": [
+            "UTC+00:00"
+        ]
+    },
+    {
+        "name": "Uzbekistan",
+        "zho": "乌兹别克斯坦",
+        "latlng": [
+            41,
+            64
+        ],
+        "timezones": [
+            "UTC+05:00"
+        ]
+    },
+    {
+        "name": "Egypt",
+        "zho": "埃及",
+        "latlng": [
+            27,
+            30
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "Senegal",
+        "zho": "塞内加尔",
+        "latlng": [
+            14,
+            -14
+        ],
+        "timezones": [
+            "UTC"
+        ]
+    },
+    {
+        "name": "Sri Lanka",
+        "zho": "斯里兰卡",
+        "latlng": [
+            7,
+            81
+        ],
+        "timezones": [
+            "UTC+05:30"
+        ]
+    },
+    {
+        "name": "Palestine",
+        "zho": "巴勒斯坦",
+        "latlng": [
+            31.9,
+            35.2
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "Bangladesh",
+        "zho": "孟加拉国",
+        "latlng": [
+            24,
+            90
+        ],
+        "timezones": [
+            "UTC+06:00"
+        ]
+    },
+    {
+        "name": "Peru",
+        "zho": "秘鲁",
+        "latlng": [
+            -10,
+            -76
+        ],
+        "timezones": [
+            "UTC-05:00"
+        ]
+    },
+    {
+        "name": "Singapore",
+        "latlng": [
+            1.36666666,
+            103.8
+        ],
+        "timezones": [
+            "UTC+08:00"
+        ]
+    },
+    {
+        "name": "Turkey",
+        "zho": "土耳其",
+        "latlng": [
+            39,
+            35
+        ],
+        "timezones": [
+            "UTC+03:00"
+        ]
+    },
+    {
+        "name": "Afghanistan",
+        "zho": "阿富汗",
+        "latlng": [
+            33,
+            65
+        ],
+        "timezones": [
+            "UTC+04:30"
+        ]
+    },
+    {
+        "name": "Aruba",
+        "zho": "阿鲁巴",
+        "latlng": [
+            12.5,
+            -69.96666666
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Cook Islands",
+        "zho": "库克群岛",
+        "latlng": [
+            -21.23333333,
+            -159.76666666
+        ],
+        "timezones": [
+            "UTC-10:00"
+        ]
+    },
+    {
+        "name": "United Kingdom",
+        "zho": "英国",
+        "latlng": [
+            54,
+            -2
+        ],
+        "timezones": [
+            "UTC-08:00",
+            "UTC-05:00",
+            "UTC-04:00",
+            "UTC-03:00",
+            "UTC-02:00",
+            "UTC",
+            "UTC+01:00",
+            "UTC+02:00",
+            "UTC+06:00"
+        ]
+    },
+    {
+        "name": "Zambia",
+        "zho": "赞比亚",
+        "latlng": [
+            -15,
+            30
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "Finland",
+        "zho": "芬兰",
+        "latlng": [
+            64,
+            26
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "Niger",
+        "zho": "尼日尔",
+        "latlng": [
+            16,
+            8
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Christmas Island",
+        "zho": "圣诞岛",
+        "latlng": [
+            -10.5,
+            105.66666666
+        ],
+        "timezones": [
+            "UTC+07:00"
+        ]
+    },
+    {
+        "name": "Tokelau",
+        "zho": "托克劳",
+        "latlng": [
+            -9,
+            -172
+        ],
+        "timezones": [
+            "UTC+13:00"
+        ]
+    },
+    {
+        "name": "Guinea-Bissau",
+        "zho": "几内亚比绍",
+        "latlng": [
+            12,
+            -15
+        ],
+        "timezones": [
+            "UTC"
+        ]
+    },
+    {
+        "name": "Azerbaijan",
+        "zho": "阿塞拜疆",
+        "latlng": [
+            40.5,
+            47.5
+        ],
+        "timezones": [
+            "UTC+04:00"
+        ]
+    },
+    {
+        "name": "Réunion",
+        "zho": "留尼旺岛",
+        "latlng": [
+            -21.15,
+            55.5
+        ],
+        "timezones": [
+            "UTC+04:00"
+        ]
+    },
+    {
+        "name": "Djibouti",
+        "zho": "吉布提",
+        "latlng": [
+            11.5,
+            43
+        ],
+        "timezones": [
+            "UTC+03:00"
+        ]
+    },
+    {
+        "name": "North Korea",
+        "zho": "朝鲜",
+        "latlng": [
+            40,
+            127
+        ],
+        "timezones": [
+            "UTC+09:00"
+        ]
+    },
+    {
+        "name": "Mauritius",
+        "zho": "毛里求斯",
+        "latlng": [
+            -20.28333333,
+            57.55
+        ],
+        "timezones": [
+            "UTC+04:00"
+        ]
+    },
+    {
+        "name": "Montserrat",
+        "zho": "蒙特塞拉特",
+        "latlng": [
+            16.75,
+            -62.2
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "United States Virgin Islands",
+        "zho": "美属维尔京群岛",
+        "latlng": [
+            18.35,
+            -64.933333
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Colombia",
+        "zho": "哥伦比亚",
+        "latlng": [
+            4,
+            -72
+        ],
+        "timezones": [
+            "UTC-05:00"
+        ]
+    },
+    {
+        "name": "Greece",
+        "zho": "希腊",
+        "latlng": [
+            39,
+            22
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "Croatia",
+        "zho": "克罗地亚",
+        "latlng": [
+            45.16666666,
+            15.5
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Morocco",
+        "zho": "摩洛哥",
+        "latlng": [
+            32,
+            -5
+        ],
+        "timezones": [
+            "UTC"
+        ]
+    },
+    {
+        "name": "Algeria",
+        "zho": "阿尔及利亚",
+        "latlng": [
+            28,
+            3
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Antarctica",
+        "zho": "南极洲",
+        "latlng": [
+            -90,
+            0
+        ],
+        "timezones": [
+            "UTC-03:00",
+            "UTC+03:00",
+            "UTC+05:00",
+            "UTC+06:00",
+            "UTC+07:00",
+            "UTC+08:00",
+            "UTC+10:00",
+            "UTC+12:00"
+        ]
+    },
+    {
+        "name": "Netherlands",
+        "zho": "荷兰",
+        "latlng": [
+            52.5,
+            5.75
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Sudan",
+        "zho": "苏丹",
+        "latlng": [
+            15,
+            30
+        ],
+        "timezones": [
+            "UTC+03:00"
+        ]
+    },
+    {
+        "name": "Fiji",
+        "zho": "斐济",
+        "latlng": [
+            17.7134,
+            178.065
+        ],
+        "timezones": [
+            "UTC+12:00"
+        ]
+    },
+    {
+        "name": "Liechtenstein",
+        "zho": "列支敦士登",
+        "latlng": [
+            47.26666666,
+            9.53333333
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Nepal",
+        "zho": "尼泊尔",
+        "latlng": [
+            28,
+            84
+        ],
+        "timezones": [
+            "UTC+05:45"
+        ]
+    },
+    {
+        "name": "Puerto Rico",
+        "zho": "波多黎各",
+        "latlng": [
+            18.25,
+            -66.5
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Georgia",
+        "zho": "格鲁吉亚",
+        "latlng": [
+            42,
+            43.5
+        ],
+        "timezones": [
+            "UTC+04:00"
+        ]
+    },
+    {
+        "name": "Pakistan",
+        "zho": "巴基斯坦",
+        "latlng": [
+            30,
+            70
+        ],
+        "timezones": [
+            "UTC+05:00"
+        ]
+    },
+    {
+        "name": "Monaco",
+        "zho": "摩纳哥",
+        "latlng": [
+            43.73333333,
+            7.4
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Botswana",
+        "zho": "博茨瓦纳",
+        "latlng": [
+            -22,
+            24
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "Lebanon",
+        "zho": "黎巴嫩",
+        "latlng": [
+            33.83333333,
+            35.83333333
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "Papua New Guinea",
+        "zho": "巴布亚新几内亚",
+        "latlng": [
+            -6,
+            147
+        ],
+        "timezones": [
+            "UTC+10:00"
+        ]
+    },
+    {
+        "name": "Mayotte",
+        "zho": "马约特",
+        "latlng": [
+            -12.83333333,
+            45.16666666
+        ],
+        "timezones": [
+            "UTC+03:00"
+        ]
+    },
+    {
+        "name": "Dominican Republic",
+        "zho": "多明尼加",
+        "latlng": [
+            19,
+            -70.66666666
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Norfolk Island",
+        "zho": "诺福克岛",
+        "latlng": [
+            -29.03333333,
+            167.95
+        ],
+        "timezones": [
+            "UTC+11:30"
+        ]
+    },
+    {
+        "name": "Bouvet Island",
+        "zho": "布维岛",
+        "latlng": [
+            54.4208,
+            3.3464
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Qatar",
+        "zho": "卡塔尔",
+        "latlng": [
+            25.5,
+            51.25
+        ],
+        "timezones": [
+            "UTC+03:00"
+        ]
+    },
+    {
+        "name": "Madagascar",
+        "zho": "马达加斯加",
+        "latlng": [
+            -20,
+            47
+        ],
+        "timezones": [
+            "UTC+03:00"
+        ]
+    },
+    {
+        "name": "India",
+        "zho": "印度",
+        "latlng": [
+            20,
+            77
+        ],
+        "timezones": [
+            "UTC+05:30"
+        ]
+    },
+    {
+        "name": "Syria",
+        "zho": "叙利亚",
+        "latlng": [
+            35,
+            38
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "Montenegro",
+        "zho": "黑山",
+        "latlng": [
+            42.5,
+            19.3
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Eswatini",
+        "zho": "斯威士兰",
+        "latlng": [
+            -26.5,
+            31.5
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "Paraguay",
+        "zho": "巴拉圭",
+        "latlng": [
+            -23,
+            -58
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "El Salvador",
+        "zho": "萨尔瓦多",
+        "latlng": [
+            13.83333333,
+            -88.91666666
+        ],
+        "timezones": [
+            "UTC-06:00"
+        ]
+    },
+    {
+        "name": "Ukraine",
+        "zho": "乌克兰",
+        "latlng": [
+            49,
+            32
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "Isle of Man",
+        "zho": "马恩岛",
+        "latlng": [
+            54.25,
+            -4.5
+        ],
+        "timezones": [
+            "UTC+00:00"
+        ]
+    },
+    {
+        "name": "Namibia",
+        "zho": "纳米比亚",
+        "latlng": [
+            -22,
+            17
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "United Arab Emirates",
+        "zho": "阿拉伯联合酋长国",
+        "latlng": [
+            24,
+            54
+        ],
+        "timezones": [
+            "UTC+04:00"
+        ]
+    },
+    {
+        "name": "Bulgaria",
+        "zho": "保加利亚",
+        "latlng": [
+            43,
+            25
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "Greenland",
+        "zho": "格陵兰",
+        "latlng": [
+            72,
+            -40
+        ],
+        "timezones": [
+            "UTC-04:00",
+            "UTC-03:00",
+            "UTC-01:00",
+            "UTC+00:00"
+        ]
+    },
+    {
+        "name": "Germany",
+        "zho": "德国",
+        "latlng": [
+            51,
+            9
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Cambodia",
+        "zho": "柬埔寨",
+        "latlng": [
+            13,
+            105
+        ],
+        "timezones": [
+            "UTC+07:00"
+        ]
+    },
+    {
+        "name": "Iraq",
+        "zho": "伊拉克",
+        "latlng": [
+            33,
+            44
+        ],
+        "timezones": [
+            "UTC+03:00"
+        ]
+    },
+    {
+        "name": "French Southern and Antarctic Lands",
+        "zho": "法国南部和南极土地",
+        "latlng": [
+            -49.25,
+            69.167
+        ],
+        "timezones": [
+            "UTC+05:00"
+        ]
+    },
+    {
+        "name": "Sweden",
+        "zho": "瑞典",
+        "latlng": [
+            62,
+            15
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Cuba",
+        "zho": "古巴",
+        "latlng": [
+            21.5,
+            -80
+        ],
+        "timezones": [
+            "UTC-05:00"
+        ]
+    },
+    {
+        "name": "Kyrgyzstan",
+        "zho": "吉尔吉斯斯坦",
+        "latlng": [
+            41,
+            75
+        ],
+        "timezones": [
+            "UTC+06:00"
+        ]
+    },
+    {
+        "name": "Russia",
+        "zho": "俄罗斯",
+        "latlng": [
+            60,
+            100
+        ],
+        "timezones": [
+            "UTC+03:00",
+            "UTC+04:00",
+            "UTC+06:00",
+            "UTC+07:00",
+            "UTC+08:00",
+            "UTC+09:00",
+            "UTC+10:00",
+            "UTC+11:00",
+            "UTC+12:00"
+        ]
+    },
+    {
+        "name": "Malaysia",
+        "zho": "马来西亚",
+        "latlng": [
+            2.5,
+            112.5
+        ],
+        "timezones": [
+            "UTC+08:00"
+        ]
+    },
+    {
+        "name": "São Tomé and Príncipe",
+        "zho": "圣多美和普林西比",
+        "latlng": [
+            1,
+            7
+        ],
+        "timezones": [
+            "UTC"
+        ]
+    },
+    {
+        "name": "Cyprus",
+        "zho": "塞浦路斯",
+        "latlng": [
+            35,
+            33
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "Canada",
+        "zho": "加拿大",
+        "latlng": [
+            60,
+            -95
+        ],
+        "timezones": [
+            "UTC-08:00",
+            "UTC-07:00",
+            "UTC-06:00",
+            "UTC-05:00",
+            "UTC-04:00",
+            "UTC-03:30"
+        ]
+    },
+    {
+        "name": "Malawi",
+        "zho": "马拉维",
+        "latlng": [
+            -13.5,
+            34
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "Saudi Arabia",
+        "zho": "沙特阿拉伯",
+        "latlng": [
+            25,
+            45
+        ],
+        "timezones": [
+            "UTC+03:00"
+        ]
+    },
+    {
+        "name": "Bosnia and Herzegovina",
+        "zho": "波斯尼亚和黑塞哥维那",
+        "latlng": [
+            44,
+            18
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Ethiopia",
+        "zho": "埃塞俄比亚",
+        "latlng": [
+            8,
+            38
+        ],
+        "timezones": [
+            "UTC+03:00"
+        ]
+    },
+    {
+        "name": "Spain",
+        "zho": "西班牙",
+        "latlng": [
+            40,
+            -4
+        ],
+        "timezones": [
+            "UTC",
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Slovenia",
+        "zho": "斯洛文尼亚",
+        "latlng": [
+            46.11666666,
+            14.81666666
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Oman",
+        "zho": "阿曼",
+        "latlng": [
+            21,
+            57
+        ],
+        "timezones": [
+            "UTC+04:00"
+        ]
+    },
+    {
+        "name": "Saint Pierre and Miquelon",
+        "zho": "圣皮埃尔和密克隆",
+        "latlng": [
+            46.83333333,
+            -56.33333333
+        ],
+        "timezones": [
+            "UTC-03:00"
+        ]
+    },
+    {
+        "name": "Macau",
+        "latlng": [
+            22.16666666,
+            113.55
+        ],
+        "timezones": [
+            "UTC+08:00"
+        ]
+    },
+    {
+        "name": "San Marino",
+        "zho": "圣马力诺",
+        "latlng": [
+            43.76666666,
+            12.41666666
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Lesotho",
+        "zho": "莱索托",
+        "latlng": [
+            -29.5,
+            28.5
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "Marshall Islands",
+        "zho": "马绍尔群岛",
+        "latlng": [
+            9,
+            168
+        ],
+        "timezones": [
+            "UTC+12:00"
+        ]
+    },
+    {
+        "name": "Sint Maarten",
+        "zho": "圣马丁岛",
+        "latlng": [
+            18.033333,
+            -63.05
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Iceland",
+        "zho": "冰岛",
+        "latlng": [
+            65,
+            -18
+        ],
+        "timezones": [
+            "UTC"
+        ]
+    },
+    {
+        "name": "Luxembourg",
+        "zho": "卢森堡",
+        "latlng": [
+            49.75,
+            6.16666666
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Argentina",
+        "zho": "阿根廷",
+        "latlng": [
+            -34,
+            -64
+        ],
+        "timezones": [
+            "UTC-03:00"
+        ]
+    },
+    {
+        "name": "Turks and Caicos Islands",
+        "zho": "特克斯和凯科斯群岛",
+        "latlng": [
+            21.75,
+            -71.58333333
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Nauru",
+        "zho": "瑙鲁",
+        "latlng": [
+            -0.53333333,
+            166.91666666
+        ],
+        "timezones": [
+            "UTC+12:00"
+        ]
+    },
+    {
+        "name": "Cocos (Keeling) Islands",
+        "zho": "科科斯",
+        "latlng": [
+            12.1642,
+            96.871
+        ],
+        "timezones": [
+            "UTC+06:30"
+        ]
+    },
+    {
+        "name": "Western Sahara",
+        "zho": "西撒哈拉",
+        "latlng": [
+            24.5,
+            -13
+        ],
+        "timezones": [
+            "UTC+00:00"
+        ]
+    },
+    {
+        "name": "Dominica",
+        "zho": "多米尼加",
+        "latlng": [
+            15.41666666,
+            -61.33333333
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Costa Rica",
+        "zho": "哥斯达黎加",
+        "latlng": [
+            10,
+            -84
+        ],
+        "timezones": [
+            "UTC-06:00"
+        ]
+    },
+    {
+        "name": "Australia",
+        "zho": "澳大利亚",
+        "latlng": [
+            -27,
+            133
+        ],
+        "timezones": [
+            "UTC+05:00",
+            "UTC+06:30",
+            "UTC+07:00",
+            "UTC+08:00",
+            "UTC+09:30",
+            "UTC+10:00",
+            "UTC+10:30",
+            "UTC+11:30"
+        ]
+    },
+    {
+        "name": "Thailand",
+        "zho": "泰国",
+        "latlng": [
+            15,
+            100
+        ],
+        "timezones": [
+            "UTC+07:00"
+        ]
+    },
+    {
+        "name": "Haiti",
+        "zho": "海地",
+        "latlng": [
+            19,
+            -72.41666666
+        ],
+        "timezones": [
+            "UTC-05:00"
+        ]
+    },
+    {
+        "name": "Tuvalu",
+        "zho": "图瓦卢",
+        "latlng": [
+            -8,
+            178
+        ],
+        "timezones": [
+            "UTC+12:00"
+        ]
+    },
+    {
+        "name": "Honduras",
+        "zho": "洪都拉斯",
+        "latlng": [
+            15,
+            -86.5
+        ],
+        "timezones": [
+            "UTC-06:00"
+        ]
+    },
+    {
+        "name": "Equatorial Guinea",
+        "zho": "赤道几内亚",
+        "latlng": [
+            2,
+            10
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Saint Lucia",
+        "zho": "圣卢西亚",
+        "latlng": [
+            13.88333333,
+            -60.96666666
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "French Polynesia",
+        "zho": "法属波利尼西亚",
+        "latlng": [
+            17.6797,
+            149.4068
+        ],
+        "timezones": [
+            "UTC-10:00",
+            "UTC-09:30",
+            "UTC-09:00"
+        ]
+    },
+    {
+        "name": "Belarus",
+        "zho": "白俄罗斯",
+        "latlng": [
+            53,
+            28
+        ],
+        "timezones": [
+            "UTC+03:00"
+        ]
+    },
+    {
+        "name": "Latvia",
+        "zho": "拉脱维亚",
+        "latlng": [
+            57,
+            25
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "Palau",
+        "zho": "帕劳",
+        "latlng": [
+            7.5,
+            134.5
+        ],
+        "timezones": [
+            "UTC+09:00"
+        ]
+    },
+    {
+        "name": "Guadeloupe",
+        "zho": "瓜德罗普岛",
+        "latlng": [
+            16.25,
+            -61.583333
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Philippines",
+        "zho": "菲律宾",
+        "latlng": [
+            13,
+            122
+        ],
+        "timezones": [
+            "UTC+08:00"
+        ]
+    },
+    {
+        "name": "Gibraltar",
+        "zho": "直布罗陀",
+        "latlng": [
+            36.13333333,
+            -5.35
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Denmark",
+        "zho": "丹麦",
+        "latlng": [
+            56,
+            10
+        ],
+        "timezones": [
+            "UTC-04:00",
+            "UTC-03:00",
+            "UTC-01:00",
+            "UTC",
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Cameroon",
+        "zho": "喀麦隆",
+        "latlng": [
+            6,
+            12
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Guinea",
+        "zho": "几内亚",
+        "latlng": [
+            11,
+            -10
+        ],
+        "timezones": [
+            "UTC"
+        ]
+    },
+    {
+        "name": "Bahrain",
+        "zho": "巴林",
+        "latlng": [
+            26,
+            50.55
+        ],
+        "timezones": [
+            "UTC+03:00"
+        ]
+    },
+    {
+        "name": "Suriname",
+        "zho": "苏里南",
+        "latlng": [
+            4,
+            -56
+        ],
+        "timezones": [
+            "UTC-03:00"
+        ]
+    },
+    {
+        "name": "DR Congo",
+        "zho": "民主刚果",
+        "latlng": [
+            0,
+            25
+        ],
+        "timezones": [
+            "UTC+01:00",
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "Somalia",
+        "zho": "索马里",
+        "latlng": [
+            10,
+            49
+        ],
+        "timezones": [
+            "UTC+03:00"
+        ]
+    },
+    {
+        "name": "Czechia",
+        "zho": "捷克",
+        "latlng": [
+            49.75,
+            15.5
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "New Caledonia",
+        "zho": "新喀里多尼亚",
+        "latlng": [
+            -21.5,
+            165.5
+        ],
+        "timezones": [
+            "UTC+11:00"
+        ]
+    },
+    {
+        "name": "Vanuatu",
+        "zho": "瓦努阿图",
+        "latlng": [
+            -16,
+            167
+        ],
+        "timezones": [
+            "UTC+11:00"
+        ]
+    },
+    {
+        "name": "Saint Helena, Ascension and Tristan da Cunha",
+        "zho": "圣赫勒拿、阿森松和特里斯坦-达库尼亚",
+        "latlng": [
+            -15.95,
+            -5.72
+        ],
+        "timezones": [
+            "UTC+00:00"
+        ]
+    },
+    {
+        "name": "Togo",
+        "zho": "多哥",
+        "latlng": [
+            8,
+            1.16666666
+        ],
+        "timezones": [
+            "UTC"
+        ]
+    },
+    {
+        "name": "British Virgin Islands",
+        "zho": "英属维尔京群岛",
+        "latlng": [
+            18.431383,
+            -64.62305
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Kenya",
+        "zho": "肯尼亚",
+        "latlng": [
+            1,
+            38
+        ],
+        "timezones": [
+            "UTC+03:00"
+        ]
+    },
+    {
+        "name": "Niue",
+        "zho": "纽埃",
+        "latlng": [
+            -19.03333333,
+            -169.86666666
+        ],
+        "timezones": [
+            "UTC-11:00"
+        ]
+    },
+    {
+        "name": "Heard Island and McDonald Islands",
+        "zho": "赫德岛和麦当劳群岛",
+        "latlng": [
+            53.0818,
+            73.5042
+        ],
+        "timezones": [
+            "UTC+05:00"
+        ]
+    },
+    {
+        "name": "Rwanda",
+        "zho": "卢旺达",
+        "latlng": [
+            -2,
+            30
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "Estonia",
+        "zho": "爱沙尼亚",
+        "latlng": [
+            59,
+            26
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "Romania",
+        "zho": "罗马尼亚",
+        "latlng": [
+            46,
+            25
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "Trinidad and Tobago",
+        "zho": "特立尼达和多巴哥",
+        "latlng": [
+            10.6918,
+            -61.2225
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Guyana",
+        "zho": "圭亚那",
+        "latlng": [
+            5,
+            -59
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Timor-Leste",
+        "zho": "东帝汶",
+        "latlng": [
+            -8.83333333,
+            125.91666666
+        ],
+        "timezones": [
+            "UTC+09:00"
+        ]
+    },
+    {
+        "name": "Vietnam",
+        "zho": "越南",
+        "latlng": [
+            16.16666666,
+            107.83333333
+        ],
+        "timezones": [
+            "UTC+07:00"
+        ]
+    },
+    {
+        "name": "Uruguay",
+        "zho": "乌拉圭",
+        "latlng": [
+            -33,
+            -56
+        ],
+        "timezones": [
+            "UTC-03:00"
+        ]
+    },
+    {
+        "name": "Vatican City",
+        "zho": "梵蒂冈",
+        "latlng": [
+            41.9,
+            12.45
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Hong Kong",
+        "latlng": [
+            22.267,
+            114.188
+        ],
+        "timezones": [
+            "UTC+08:00"
+        ]
+    },
+    {
+        "name": "Austria",
+        "zho": "奥地利",
+        "latlng": [
+            47.33333333,
+            13.33333333
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Antigua and Barbuda",
+        "zho": "安提瓜和巴布达",
+        "latlng": [
+            17.05,
+            -61.8
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Turkmenistan",
+        "zho": "土库曼斯坦",
+        "latlng": [
+            40,
+            60
+        ],
+        "timezones": [
+            "UTC+05:00"
+        ]
+    },
+    {
+        "name": "Mozambique",
+        "zho": "莫桑比克",
+        "latlng": [
+            -18.25,
+            35
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "Panama",
+        "zho": "巴拿马",
+        "latlng": [
+            9,
+            -80
+        ],
+        "timezones": [
+            "UTC-05:00"
+        ]
+    },
+    {
+        "name": "Micronesia",
+        "zho": "密克罗尼西亚",
+        "latlng": [
+            6.91666666,
+            158.25
+        ],
+        "timezones": [
+            "UTC+10:00",
+            "UTC+11:00"
+        ]
+    },
+    {
+        "name": "Ireland",
+        "zho": "爱尔兰",
+        "latlng": [
+            53,
+            -8
+        ],
+        "timezones": [
+            "UTC"
+        ]
+    },
+    {
+        "name": "Curaçao",
+        "zho": "库拉索",
+        "latlng": [
+            12.116667,
+            -68.933333
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "French Guiana",
+        "zho": "法属圭亚那",
+        "latlng": [
+            4,
+            -53
+        ],
+        "timezones": [
+            "UTC-03:00"
+        ]
+    },
+    {
+        "name": "Norway",
+        "zho": "挪威",
+        "latlng": [
+            62,
+            10
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Åland Islands",
+        "zho": "奥兰群岛",
+        "latlng": [
+            60.116667,
+            19.9
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "Central African Republic",
+        "zho": "中非共和国",
+        "latlng": [
+            7,
+            21
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Burkina Faso",
+        "zho": "布基纳法索",
+        "latlng": [
+            13,
+            -2
+        ],
+        "timezones": [
+            "UTC"
+        ]
+    },
+    {
+        "name": "Eritrea",
+        "zho": "厄立特里亚",
+        "latlng": [
+            15,
+            39
+        ],
+        "timezones": [
+            "UTC+03:00"
+        ]
+    },
+    {
+        "name": "Tanzania",
+        "zho": "坦桑尼亚",
+        "latlng": [
+            -6,
+            35
+        ],
+        "timezones": [
+            "UTC+03:00"
+        ]
+    },
+    {
+        "name": "South Korea",
+        "zho": "韩国",
+        "latlng": [
+            37,
+            127.5
+        ],
+        "timezones": [
+            "UTC+09:00"
+        ]
+    },
+    {
+        "name": "Jordan",
+        "zho": "约旦",
+        "latlng": [
+            31,
+            36
+        ],
+        "timezones": [
+            "UTC+03:00"
+        ]
+    },
+    {
+        "name": "Mauritania",
+        "zho": "毛里塔尼亚",
+        "latlng": [
+            20,
+            -12
+        ],
+        "timezones": [
+            "UTC"
+        ]
+    },
+    {
+        "name": "Lithuania",
+        "zho": "立陶宛",
+        "latlng": [
+            56,
+            24
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "United States Minor Outlying Islands",
+        "zho": "美国本土外小岛屿",
+        "latlng": [
+            19.3,
+            166.633333
+        ],
+        "timezones": [
+            "UTC-11:00",
+            "UTC-10:00",
+            "UTC+12:00"
+        ]
+    },
+    {
+        "name": "Slovakia",
+        "zho": "斯洛伐克",
+        "latlng": [
+            48.66666666,
+            19.5
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Angola",
+        "zho": "安哥拉",
+        "latlng": [
+            -12.5,
+            18.5
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Kazakhstan",
+        "zho": "哈萨克斯坦",
+        "latlng": [
+            48.0196,
+            66.9237
+        ],
+        "timezones": [
+            "UTC+05:00",
+            "UTC+06:00"
+        ]
+    },
+    {
+        "name": "Moldova",
+        "zho": "摩尔多瓦",
+        "latlng": [
+            47,
+            29
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "Mali",
+        "zho": "马里",
+        "latlng": [
+            17,
+            -4
+        ],
+        "timezones": [
+            "UTC"
+        ]
+    },
+    {
+        "name": "Falkland Islands",
+        "zho": "福克兰群岛",
+        "latlng": [
+            -51.75,
+            -59
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Armenia",
+        "zho": "亚美尼亚",
+        "latlng": [
+            40,
+            45
+        ],
+        "timezones": [
+            "UTC+04:00"
+        ]
+    },
+    {
+        "name": "Samoa",
+        "zho": "萨摩亚",
+        "latlng": [
+            -13.58333333,
+            -172.33333333
+        ],
+        "timezones": [
+            "UTC+13:00"
+        ]
+    },
+    {
+        "name": "Jersey",
+        "zho": "泽西岛",
+        "latlng": [
+            49.25,
+            -2.16666666
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Japan",
+        "zho": "日本",
+        "latlng": [
+            36,
+            138
+        ],
+        "timezones": [
+            "UTC+09:00"
+        ]
+    },
+    {
+        "name": "Bolivia",
+        "zho": "玻利维亚",
+        "latlng": [
+            -17,
+            -65
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Chile",
+        "zho": "智利",
+        "latlng": [
+            -30,
+            -71
+        ],
+        "timezones": [
+            "UTC-06:00",
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "United States",
+        "zho": "美国",
+        "latlng": [
+            38,
+            -97
+        ],
+        "timezones": [
+            "UTC-12:00",
+            "UTC-11:00",
+            "UTC-10:00",
+            "UTC-09:00",
+            "UTC-08:00",
+            "UTC-07:00",
+            "UTC-06:00",
+            "UTC-05:00",
+            "UTC-04:00",
+            "UTC+10:00",
+            "UTC+12:00"
+        ]
+    },
+    {
+        "name": "Saint Vincent and the Grenadines",
+        "zho": "圣文森特和格林纳丁斯",
+        "latlng": [
+            13.25,
+            -61.2
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Bermuda",
+        "zho": "百慕大",
+        "latlng": [
+            32.33333333,
+            -64.75
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Seychelles",
+        "zho": "塞舌尔",
+        "latlng": [
+            -4.58333333,
+            55.66666666
+        ],
+        "timezones": [
+            "UTC+04:00"
+        ]
+    },
+    {
+        "name": "British Indian Ocean Territory",
+        "zho": "英属印度洋领地",
+        "latlng": [
+            -6,
+            71.5
+        ],
+        "timezones": [
+            "UTC+06:00"
+        ]
+    },
+    {
+        "name": "Guatemala",
+        "zho": "危地马拉",
+        "latlng": [
+            15.5,
+            -90.25
+        ],
+        "timezones": [
+            "UTC-06:00"
+        ]
+    },
+    {
+        "name": "Ecuador",
+        "zho": "厄瓜多尔",
+        "latlng": [
+            -2,
+            -77.5
+        ],
+        "timezones": [
+            "UTC-06:00",
+            "UTC-05:00"
+        ]
+    },
+    {
+        "name": "Martinique",
+        "zho": "马提尼克",
+        "latlng": [
+            14.666667,
+            -61
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Tajikistan",
+        "zho": "塔吉克斯坦",
+        "latlng": [
+            39,
+            71
+        ],
+        "timezones": [
+            "UTC+05:00"
+        ]
+    },
+    {
+        "name": "Malta",
+        "zho": "马耳他",
+        "latlng": [
+            35.9375,
+            14.3754
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Gambia",
+        "zho": "冈比亚",
+        "latlng": [
+            13.46666666,
+            -16.56666666
+        ],
+        "timezones": [
+            "UTC+00:00"
+        ]
+    },
+    {
+        "name": "Nigeria",
+        "zho": "尼日利亚",
+        "latlng": [
+            10,
+            8
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Bahamas",
+        "zho": "巴哈马",
+        "latlng": [
+            25.0343,
+            -77.3963
+        ],
+        "timezones": [
+            "UTC-05:00"
+        ]
+    },
+    {
+        "name": "Kosovo",
+        "zho": "科索沃",
+        "latlng": [
+            42.666667,
+            21.166667
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Kuwait",
+        "zho": "科威特",
+        "latlng": [
+            29.5,
+            45.75
+        ],
+        "timezones": [
+            "UTC+03:00"
+        ]
+    },
+    {
+        "name": "Maldives",
+        "zho": "马尔代夫",
+        "latlng": [
+            3.25,
+            73
+        ],
+        "timezones": [
+            "UTC+05:00"
+        ]
+    },
+    {
+        "name": "South Sudan",
+        "zho": "南苏丹",
+        "latlng": [
+            7,
+            30
+        ],
+        "timezones": [
+            "UTC+03:00"
+        ]
+    },
+    {
+        "name": "Iran",
+        "zho": "伊朗",
+        "latlng": [
+            32,
+            53
+        ],
+        "timezones": [
+            "UTC+03:30"
+        ]
+    },
+    {
+        "name": "Albania",
+        "zho": "阿尔巴尼亚",
+        "latlng": [
+            41,
+            20
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Brazil",
+        "zho": "巴西",
+        "latlng": [
+            -10,
+            -55
+        ],
+        "timezones": [
+            "UTC-05:00",
+            "UTC-04:00",
+            "UTC-03:00",
+            "UTC-02:00"
+        ]
+    },
+    {
+        "name": "Serbia",
+        "zho": "塞尔维亚",
+        "latlng": [
+            44,
+            21
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Belize",
+        "zho": "伯利兹",
+        "latlng": [
+            17.25,
+            -88.75
+        ],
+        "timezones": [
+            "UTC-06:00"
+        ]
+    },
+    {
+        "name": "Myanmar",
+        "zho": "缅甸",
+        "latlng": [
+            22,
+            98
+        ],
+        "timezones": [
+            "UTC+06:30"
+        ]
+    },
+    {
+        "name": "Bhutan",
+        "zho": "不丹",
+        "latlng": [
+            27.5,
+            90.5
+        ],
+        "timezones": [
+            "UTC+06:00"
+        ]
+    },
+    {
+        "name": "Venezuela",
+        "zho": "委内瑞拉",
+        "latlng": [
+            8,
+            -66
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Liberia",
+        "zho": "利比里亚",
+        "latlng": [
+            6.5,
+            -9.5
+        ],
+        "timezones": [
+            "UTC"
+        ]
+    },
+    {
+        "name": "Jamaica",
+        "zho": "牙买加",
+        "latlng": [
+            18.25,
+            -77.5
+        ],
+        "timezones": [
+            "UTC-05:00"
+        ]
+    },
+    {
+        "name": "Poland",
+        "zho": "波兰",
+        "latlng": [
+            52,
+            20
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Cayman Islands",
+        "zho": "开曼群岛",
+        "latlng": [
+            19.3133,
+            -81.2546
+        ],
+        "timezones": [
+            "UTC-05:00"
+        ]
+    },
+    {
+        "name": "Brunei",
+        "zho": "文莱",
+        "latlng": [
+            4.5,
+            114.66666666
+        ],
+        "timezones": [
+            "UTC+08:00"
+        ]
+    },
+    {
+        "name": "Comoros",
+        "zho": "科摩罗",
+        "latlng": [
+            -12.16666666,
+            44.25
+        ],
+        "timezones": [
+            "UTC+03:00"
+        ]
+    },
+    {
+        "name": "Guam",
+        "zho": "关岛",
+        "latlng": [
+            13.46666666,
+            144.78333333
+        ],
+        "timezones": [
+            "UTC+10:00"
+        ]
+    },
+    {
+        "name": "Tonga",
+        "zho": "汤加",
+        "latlng": [
+            -20,
+            -175
+        ],
+        "timezones": [
+            "UTC+13:00"
+        ]
+    },
+    {
+        "name": "Kiribati",
+        "zho": "基里巴斯",
+        "latlng": [
+            1.41666666,
+            173
+        ],
+        "timezones": [
+            "UTC+12:00",
+            "UTC+13:00",
+            "UTC+14:00"
+        ]
+    },
+    {
+        "name": "Ghana",
+        "zho": "加纳",
+        "latlng": [
+            8,
+            -2
+        ],
+        "timezones": [
+            "UTC"
+        ]
+    },
+    {
+        "name": "Chad",
+        "zho": "乍得",
+        "latlng": [
+            15,
+            19
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Zimbabwe",
+        "zho": "津巴布韦",
+        "latlng": [
+            -20,
+            30
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "Saint Martin",
+        "zho": "圣马丁",
+        "latlng": [
+            18.0708,
+            63.0501
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    },
+    {
+        "name": "Mongolia",
+        "zho": "蒙古",
+        "latlng": [
+            46,
+            105
+        ],
+        "timezones": [
+            "UTC+07:00",
+            "UTC+08:00"
+        ]
+    },
+    {
+        "name": "Portugal",
+        "zho": "葡萄牙",
+        "latlng": [
+            39.5,
+            -8
+        ],
+        "timezones": [
+            "UTC-01:00",
+            "UTC"
+        ]
+    },
+    {
+        "name": "American Samoa",
+        "zho": "美属萨摩亚",
+        "latlng": [
+            -14.33333333,
+            -170
+        ],
+        "timezones": [
+            "UTC-11:00"
+        ]
+    },
+    {
+        "name": "Republic of the Congo",
+        "zho": "刚果",
+        "latlng": [
+            -1,
+            15
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Belgium",
+        "zho": "比利时",
+        "latlng": [
+            50.83333333,
+            4
+        ],
+        "timezones": [
+            "UTC+01:00"
+        ]
+    },
+    {
+        "name": "Israel",
+        "zho": "以色列",
+        "latlng": [
+            31.47,
+            35.13
+        ],
+        "timezones": [
+            "UTC+02:00"
+        ]
+    },
+    {
+        "name": "New Zealand",
+        "zho": "新西兰",
+        "latlng": [
+            -41,
+            174
+        ],
+        "timezones": [
+            "UTC-11:00",
+            "UTC-10:00",
+            "UTC+12:00",
+            "UTC+12:45",
+            "UTC+13:00"
+        ]
+    },
+    {
+        "name": "Nicaragua",
+        "zho": "尼加拉瓜",
+        "latlng": [
+            13,
+            -85
+        ],
+        "timezones": [
+            "UTC-06:00"
+        ]
+    },
+    {
+        "name": "Anguilla",
+        "zho": "安圭拉",
+        "latlng": [
+            18.25,
+            -63.16666666
+        ],
+        "timezones": [
+            "UTC-04:00"
+        ]
+    }
+]

@@ -8,7 +8,7 @@ import LoadingModal from "../components/LoadingModal";
 import WeekWeather from "../components/WeekWeather";
 
 import weatherCodeToDescription from "../utils/weatherCodeToDescription";
-import { formatDate } from "../utils/format";
+import { formatDate, findNearestCountry } from "../utils/format";
 
  
 function HomePage() {
@@ -38,9 +38,11 @@ function HomePage() {
     navigator.geolocation.getCurrentPosition((position) => {
       const latitude = position.coords.latitude;
       const longitude = position.coords.longitude;
+      const myLocation = findNearestCountry(latitude, longitude) // 根據當前位置找到與資料庫中最接近的國家資料 
       
+      console.log(position)
+      console.log(myLocation)
       getCurrentWeather(latitude, longitude).then((res)=>{
-        console.log(res);
         setIsLoading(false);
         setWeather(() => ({
           ...res.data.current
