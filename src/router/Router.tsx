@@ -7,19 +7,19 @@ import Recharts from "../pages/Recharts.tsx";
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: 'react-weather-dashboard/',
     element: <HomePage />,
   },
   {
-    path: '/about',
+    path: 'react-weather-dashboard/about',
     element: <About />,
   },
   {
-    path: '/countryList',
+    path: 'react-weather-dashboard/countryList',
     element: <CountryList />,
   },
   {
-    path: '/recharts',
+    path: 'react-weather-dashboard/recharts',
     element: <Recharts />,
   }
 
