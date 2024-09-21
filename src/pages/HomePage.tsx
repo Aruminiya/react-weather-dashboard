@@ -2,6 +2,15 @@ import { useState, useContext, useEffect, useCallback } from "react";
 import { Box, Card, CardContent, Grid2, Stack } from "@mui/material";
 import { useTheme } from '@mui/material/styles';
 import { OpenMeteoApiContext } from "../context/OpenMeteoApiContextProvider";
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+} from "recharts";
 
 import TodayWeather from "../components/TodayWeather";
 import LoadingModal from "../components/LoadingModal";
@@ -32,7 +41,13 @@ type WeekWeather = {
   time: string[];
   weather_code: number[];
 }
- 
+
+type WeatherData = {
+  name: string;
+  time: string;
+  temperature: number;
+}
+
 function HomePage() {
   const theme = useTheme();
 
@@ -55,7 +70,9 @@ function HomePage() {
     wind_speed_10m: 0,
     relative_humidity_2m: 0
   });
-  
+
+  const [hourlyWeather, setHourlyWeather] = useState<WeatherData[]>([]);
+  console.log(hourlyWeather);
   const [weekWeather, setWeekWeather] = useState({
     temperature_2m_max: [] as number[],
     temperature_2m_min: [] as number[],
@@ -75,7 +92,22 @@ function HomePage() {
       const result = await getCurrentWeather(latlng[0], latlng[1]);
       console.log(result);
       setWeather(result.data.current);
+
       setWeekWeather(result.data.daily);
+      
+      const getWeatherHourly = result.data.hourly;
+      console.log(getWeatherHourly);
+      const weatherHourly: WeatherData[] = [];
+      for (let i = 0 ; i <= 24 ; i += 6) {
+        weatherHourly.push({
+          name: `${formatDate(getWeatherHourly.time[i]).hour}:${formatDate(getWeatherHourly.time[i]).minute}`,
+          time: `${formatDate(getWeatherHourly.time[i]).hour}:${formatDate(getWeatherHourly.time[i]).minute}`,
+          temperature: getWeatherHourly.temperature_2m[i]
+        })
+      };
+
+      setHourlyWeather(() => weatherHourly)
+
       setLocation((prev) => ({
         ...prev,
         label,
@@ -143,7 +175,19 @@ function HomePage() {
             </Grid2>
             <Grid2 size={7}>
               <Box >
-                今日天氣資料
+              <LineChart width={500} height={300} data={hourlyWeather}>
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="time" padding={{ left: 30, right: 30 }} />
+                <YAxis />
+                <Tooltip />
+                <Legend />
+                <Line
+                  type="monotone"
+                  dataKey="temperature"
+                  stroke="#8884d8"
+                  activeDot={{ r: 8 }}
+                />
+              </LineChart>
               </Box>
             </Grid2>
             <Grid2 size={12}>
@@ -151,7 +195,7 @@ function HomePage() {
                 {weekWeather.time.map((time, index) => (
                   <WeekWeather
                     key={index}
-                    week={formatDate(time)}
+                    week={`週${formatDate(time).dayOfWeek}`}
                     image={weatherCodeToDescription(weekWeather.weather_code[index]).image}
                     temperatureMax={weekWeather.temperature_2m_max[index]}
                     temperatureMin={weekWeather.temperature_2m_min[index]}
