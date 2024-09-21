@@ -15,7 +15,7 @@ function LabelCountryData() {
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export default function CaptialAutocomplete({selectedCaptial}:any) {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const handleChange = (event: React.SyntheticEvent, newValue: any) => {
+  const handleChange = (_event: React.SyntheticEvent, newValue: any) => {
     selectedCaptial(newValue);
   };
 
