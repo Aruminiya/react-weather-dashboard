@@ -2,21 +2,12 @@ import { useState, useContext, useEffect, useCallback } from "react";
 import { Box, Card, CardContent, Grid2, Stack } from "@mui/material";
 import { useTheme } from '@mui/material/styles';
 import { OpenMeteoApiContext } from "../context/OpenMeteoApiContextProvider";
-import {
-  LineChart,
-  Line,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  Legend,
-  ResponsiveContainer
-} from "recharts";
 
 import TodayWeather from "../components/TodayWeather";
 import LoadingModal from "../components/LoadingModal";
 import WeekWeather from "../components/WeekWeather";
 import CaptialAutocomplete from "../components/CaptialAutocomplete";
+import TemperatureChart from "../components/TemperatureChart";
 
 import weatherCodeToDescription from "../utils/weatherCodeToDescription";
 import { formatDate } from "../utils/format";
@@ -175,26 +166,7 @@ function HomePage() {
               />
             </Grid2>
             <Grid2 size={7}>
-              <Stack spacing={1} sx={{ bgcolor: theme.customColors.darkPurpleBlue, borderRadius: 1, height: '100%' }} >
-                <Box sx={{display:'flex', justifyContent: 'center', padding: '12px', paddingTop: '24px'}}>
-                  <h4>今日溫度變化</h4>
-                </Box>
-                <ResponsiveContainer width="93%" height="100%">
-                  <LineChart data={hourlyWeather}>
-                    <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="time" padding={{ left: 30, right: 30 }} />
-                    <YAxis />
-                    <Tooltip />
-                    <Legend />
-                    <Line
-                      type="monotone"
-                      dataKey="temperature"
-                      stroke="#8884d8"
-                      activeDot={{ r: 8 }}
-                    />
-                  </LineChart>
-                </ResponsiveContainer>
-              </Stack>
+              <TemperatureChart title='今日溫度變化' hourlyWeather={hourlyWeather} />
             </Grid2>
             <Grid2 size={12}>
               <Stack spacing={1} direction="row" >
