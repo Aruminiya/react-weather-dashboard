@@ -33,7 +33,7 @@ function TemperatureChart({ title, hourlyWeather }:TemperatureChartProps) {
   // 計算均勻分配的刻度值，包含最小值和最大值
   const tickCount = 5; // 設置刻度數量
   const tickInterval = (maxTemperature - minTemperature ) / (tickCount - 1);
-  const ticks = Array.from({ length: tickCount }, (_, i) => minTemperature + i * tickInterval);
+  const ticks = Array.from({ length: tickCount }, (_, i) => Number(minTemperature + i * tickInterval).toFixed(1));
   console.log(ticks)
 
   return (
