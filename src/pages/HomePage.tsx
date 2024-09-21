@@ -82,7 +82,7 @@ function HomePage() {
     try {
       setIsLoading(true);
       const result = await getCurrentWeather(latlng[0], latlng[1]);
-      console.log(result);
+
       setWeather(result.data.current);
 
       setWeekWeather(result.data.daily);
@@ -90,7 +90,9 @@ function HomePage() {
       const getWeatherHourly = result.data.hourly;
       console.log(getWeatherHourly);
       const weatherHourly: WeatherData[] = [];
-      for (let i = 0 ; i <= 24 ; i += 6) {
+
+      const HOUT_INIT = 3; // 每隔幾小時顯示溫度
+      for (let i = 0 ; i <= 24 ; i += HOUT_INIT) {
         weatherHourly.push({
           name: `${formatDate(getWeatherHourly.time[i]).hour}:${formatDate(getWeatherHourly.time[i]).minute}`,
           time: `${formatDate(getWeatherHourly.time[i]).hour}:${formatDate(getWeatherHourly.time[i]).minute}`,
